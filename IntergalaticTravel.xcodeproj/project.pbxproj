@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		18CF96821AAF2CA100284050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF96811AAF2CA100284050 /* main.m */; };
 		18CF96851AAF2CA100284050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF96841AAF2CA100284050 /* AppDelegate.m */; };
-		18CF96881AAF2CA100284050 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF96871AAF2CA100284050 /* ViewController.m */; };
+		18CF96881AAF2CA100284050 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF96871AAF2CA100284050 /* RootViewController.m */; };
 		18CF968B1AAF2CA100284050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CF96891AAF2CA100284050 /* Main.storyboard */; };
-		18CF968D1AAF2CA100284050 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CF968C1AAF2CA100284050 /* Images.xcassets */; };
 		18CF96901AAF2CA100284050 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CF968E1AAF2CA100284050 /* LaunchScreen.xib */; };
 		18CF969C1AAF2CA100284050 /* IntergalaticTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF969B1AAF2CA100284050 /* IntergalaticTravelTests.m */; };
+		18CF96A71AAF4FA500284050 /* VacationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF96A61AAF4FA500284050 /* VacationViewController.m */; };
+		18CF96A91AAF598100284050 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CF96A81AAF598100284050 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		18CF96811AAF2CA100284050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18CF96831AAF2CA100284050 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18CF96841AAF2CA100284050 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18CF96861AAF2CA100284050 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18CF96871AAF2CA100284050 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18CF96861AAF2CA100284050 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		18CF96871AAF2CA100284050 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		18CF968A1AAF2CA100284050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18CF968C1AAF2CA100284050 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18CF968F1AAF2CA100284050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18CF96951AAF2CA100284050 /* IntergalaticTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergalaticTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CF969A1AAF2CA100284050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CF969B1AAF2CA100284050 /* IntergalaticTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntergalaticTravelTests.m; sourceTree = "<group>"; };
+		18CF96A51AAF4FA500284050 /* VacationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacationViewController.h; sourceTree = "<group>"; };
+		18CF96A61AAF4FA500284050 /* VacationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationViewController.m; sourceTree = "<group>"; };
+		18CF96A81AAF598100284050 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +86,12 @@
 			children = (
 				18CF96831AAF2CA100284050 /* AppDelegate.h */,
 				18CF96841AAF2CA100284050 /* AppDelegate.m */,
-				18CF96861AAF2CA100284050 /* ViewController.h */,
-				18CF96871AAF2CA100284050 /* ViewController.m */,
+				18CF96861AAF2CA100284050 /* RootViewController.h */,
+				18CF96871AAF2CA100284050 /* RootViewController.m */,
+				18CF96A51AAF4FA500284050 /* VacationViewController.h */,
+				18CF96A61AAF4FA500284050 /* VacationViewController.m */,
 				18CF96891AAF2CA100284050 /* Main.storyboard */,
-				18CF968C1AAF2CA100284050 /* Images.xcassets */,
+				18CF96A81AAF598100284050 /* Images.xcassets */,
 				18CF968E1AAF2CA100284050 /* LaunchScreen.xib */,
 				18CF967F1AAF2CA100284050 /* Supporting Files */,
 			);
@@ -199,9 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CF96A91AAF598100284050 /* Images.xcassets in Resources */,
 				18CF968B1AAF2CA100284050 /* Main.storyboard in Resources */,
 				18CF96901AAF2CA100284050 /* LaunchScreen.xib in Resources */,
-				18CF968D1AAF2CA100284050 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CF96881AAF2CA100284050 /* ViewController.m in Sources */,
+				18CF96881AAF2CA100284050 /* RootViewController.m in Sources */,
 				18CF96851AAF2CA100284050 /* AppDelegate.m in Sources */,
 				18CF96821AAF2CA100284050 /* main.m in Sources */,
+				18CF96A71AAF4FA500284050 /* VacationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
